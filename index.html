@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Leo Hwang — Finance Student @ UofT</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<h1 class="logo">Leo Hwang</h1>
+				<nav class="nav">
+					<a href="#about">About</a>
+					<a href="#contact">Contact</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container hero-grid">
+					<div class="hero-content">
+						<p class="eyebrow">Finance • Data • UofT</p>
+						<h2 class="hero-title">Hi, I'm Leo Hwang</h2>
+						<p class="hero-lead">Finance student at the University of Toronto focused on markets, portfolio analytics, and data-driven investment research.</p>
+						<p class="links">
+							<a class="btn" href="https://www.linkedin.com/in/leo--hwang/" target="_blank" rel="noopener">LinkedIn</a>
+							<a class="btn ghost" href="https://www.instagram.com/leohwang1/" target="_blank" rel="noopener">Instagram</a>
+						</p>
+						<ul class="meta-list">
+							<li><strong>School:</strong> University of Toronto</li>
+							<li><strong>Focus:</strong> Financial analysis, modelling, equities</li>
+						</ul>
+					</div>
+
+					<div class="hero-visual">
+						<div class="card chart-card">
+							<canvas id="marketChart" aria-label="Market chart" role="img"></canvas>
+						</div>
+						<!-- Decorative wave removed per request -->
+					</div>
+				</div>
+			</section>
+
+			<div class="divider" aria-hidden="true">
+				<span class="divider-line"></span>
+				<span class="divider-line"></span>
+			</div>
+
+			<section id="about" class="container about">
+				<h3>About Me</h3>
+				<p>I'm studying finance at UofT with interests in equities research, portfolio construction, and applying data analytics to investment decisions. I enjoy building models, visualizing market behaviour, and learning about macro drivers.</p>
+				<div class="skills">
+					<span>Financial Modeling</span>
+					<span>Excel / Python</span>
+					<span>Equity Research</span>
+					<span>Data Visualization</span>
+				</div>
+			</section>
+			<div class="divider" aria-hidden="true">
+				<span class="divider-line"></span>
+				<span class="divider-badge" aria-hidden="true">$</span>
+				<span class="divider-line"></span>
+			</div>
+
+			<section id="contact" class="container contact">
+				<h3>Contact</h3>
+				<p>Connect with me on <a href="https://www.linkedin.com/in/leo--hwang/">LinkedIn</a> or email <a href="mailto:leohwang821@gmail.com">leohwang821@gmail.com</a>.</p>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-inner">© <span id="year"></span> Leo Hwang</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
